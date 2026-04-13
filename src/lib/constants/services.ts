@@ -1,10 +1,10 @@
 export const HIGH_SHABBATOT = [
   {
     title: "Yom Teruah",
-    url: "/",
+    url: "/temple/services/high-shabbat/yom-teruah",
   },
   {
     title: "Yom Kippur",
-    url: "/",
+    url: "/temple/services/high-shabbat/yom-kippur",
   },
 ];
