@@ -1,5 +1,11 @@
-const FridayEveningHomeRitual = () => {
-  return <div>Friday Evening Home Ritual</div>;
+import TheShema from "@/app/temple/(manual)/_components/sections/TheShema";
+
+const Page = () => {
+  return (
+    <>
+      <TheShema />
+    </>
+  );
 };
 
-export default FridayEveningHomeRitual;
+export default Page;
