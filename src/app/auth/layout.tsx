@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-const ComponentName = ({ children }: PropsWithChildren) => {
+const Layout = ({ children }: PropsWithChildren) => {
   return (
     <main className="flex items-center justify-center border py-8">
       {children}
@@ -8,4 +8,4 @@ const ComponentName = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default ComponentName;
+export default Layout;

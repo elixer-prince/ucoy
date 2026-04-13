@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "",
 };
 
-const BaseLayout = ({ children }: Readonly<PropsWithChildren>) => {
+const RootLayout = ({ children }: Readonly<PropsWithChildren>) => {
   return (
     <html
       lang="en-JM"
@@ -28,4 +28,4 @@ const BaseLayout = ({ children }: Readonly<PropsWithChildren>) => {
   );
 };
 
-export default BaseLayout;
+export default RootLayout;

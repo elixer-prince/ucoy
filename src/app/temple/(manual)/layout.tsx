@@ -1,13 +1,11 @@
 import { PropsWithChildren } from "react";
 
-const ManualLayout = ({ children }: PropsWithChildren) => {
+const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
-      <header>Header</header>
-
       <main>{children}</main>
     </>
   );
 };
 
-export default ManualLayout;
+export default Layout;

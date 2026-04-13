@@ -1,7 +1,7 @@
 import Navbar from "@/ui/components/Navbar/Index";
 import { PropsWithChildren } from "react";
 
-const LandingPageLayout = ({ children }: PropsWithChildren) => {
+const Layout = ({ children }: PropsWithChildren) => {
   return (
     <>
       <Navbar />
@@ -11,4 +11,4 @@ const LandingPageLayout = ({ children }: PropsWithChildren) => {
   );
 };
 
-export default LandingPageLayout;
+export default Layout;
