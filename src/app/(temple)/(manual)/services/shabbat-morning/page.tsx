@@ -1,10 +1,11 @@
+import PageTitle from "@/app/(temple)/(manual)/_components/PageTitle";
 import TheShema from "@/app/(temple)/(manual)/_components/sections/TheShema";
 
 const Page = () => {
   return (
     <>
-      <header>
-        <h1 className="font=bold">Shabbat Morning Service</h1>
+      <header className="flex flex-col justify-center gap-4 border p-4 text-center">
+        <PageTitle>Shabbat Morning Service</PageTitle>
 
         <div>
           <p>Shabbat Shalom (Happy Sabbath) my brothers and sisters!</p>
