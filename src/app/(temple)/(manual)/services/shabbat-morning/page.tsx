@@ -5,7 +5,7 @@ import TheShema from "@/app/(temple)/(manual)/_sections/TheShema";
 const Page = () => {
   return (
     <>
-      <PageBanner image="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_16x9.jpg?w=1200">
+      <PageBanner image="/images/shabbat-morning-service-banner.jpg">
         <PageTitle>Shabbat Morning Service</PageTitle>
 
         <div className="flex flex-col gap-2 font-bold">
