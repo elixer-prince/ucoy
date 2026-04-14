@@ -7,7 +7,7 @@ const TheShema = () => {
         <h2 className="font-bold">The Shema</h2>
 
         <p>
-          <HebrewText translation="Testing" transliterated>
+          <HebrewText translation="" transliterated>
             Shema Yisrael, Yahweh Shaddai, Yahweh echad. Baruch shem kavod
             malchuto l’olam va’ed
           </HebrewText>

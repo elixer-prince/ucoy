@@ -11,11 +11,13 @@ const HebrewText = ({
   children,
 }: PropsWithChildren<HebrewTextProps>) => {
   const sharedAttributes = { lang: "", className: "text-red-500" };
+  const formattedTranslation =
+    translation === "" ? translation : `{${translation}}`;
 
   return transliterated ? (
     <span>
       <span {...sharedAttributes}>{children}</span>
-      <span className="text-blue-500"> {`{${translation}}`}</span>
+      <span className="text-blue-500"> {formattedTranslation}</span>
     </span>
   ) : (
     <span {...sharedAttributes} dir="rtl" title={translation}>
