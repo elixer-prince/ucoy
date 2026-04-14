@@ -1,11 +1,13 @@
 import DesktopLinks from "@/ui/components/Navbar/DesktopLinks";
 import NavbarLogo from "@/ui/components/Navbar/Logo";
+import MenuIcon from "@/ui/components/Navbar/MenuIcon";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
     <nav className="sticky top-0 flex justify-between bg-black p-4 text-white select-none">
       <div className="flex items-center gap-2">
+        <MenuIcon />
         <NavbarLogo />
       </div>
 
