@@ -1,10 +1,13 @@
 import DesktopLinks from "@/ui/components/Navbar/DesktopLinks";
 import { Show, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between bg-black text-white">
-      <div className="flex items-center">United Congregation of YisraYah</div>
+    <nav className="sticky top-0 flex justify-between bg-black p-4 text-white select-none">
+      <Link className="flex items-center" href="/#">
+        United Congregation of YisraYah
+      </Link>
 
       <div className="flex">
         <Show when="signed-in">
