@@ -1,10 +1,11 @@
+import Heading from "@/app/(temple)/(manual)/_components/Heading";
 import HebrewText from "@/app/(temple)/(manual)/_components/HebrewText";
 
 const TheShema = () => {
   return (
     <section>
       <header>
-        <h2 className="font-bold">The Shema</h2>
+        <Heading level={1}>The Shema</Heading>
 
         <p>
           <HebrewText translation="" transliterated>
