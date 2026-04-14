@@ -7,7 +7,7 @@ const Page = () => {
       <header className="flex flex-col justify-center gap-4 border p-4 text-center">
         <PageTitle>Shabbat Morning Service</PageTitle>
 
-        <div>
+        <div className="flex flex-col gap-2 font-bold">
           <p>Shabbat Shalom (Happy Sabbath) my brothers and sisters!</p>
           <p>
             Welcome to the Heykal (Temple) of Yahweh and the Shabbat Celebration
