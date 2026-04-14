@@ -19,7 +19,7 @@ const DesktopLinks = () => {
                 <li>
                   <Link
                     className="block px-4 py-2 hover:bg-white/25"
-                    href="/temple/services/shabbat-morning"
+                    href="/services/shabbat-morning"
                   >
                     Shabbat Morning Service
                   </Link>
@@ -28,8 +28,8 @@ const DesktopLinks = () => {
                 <details>
                   <summary>High Shabbat</summary>
 
-                  {HIGH_SHABBATOT.map(({ title, url }, index) => (
-                    <li key={index}>
+                  {HIGH_SHABBATOT.map(({ title, url }) => (
+                    <li key={url}>
                       <Link
                         className="block px-4 py-2 hover:bg-white/25"
                         href={url}
@@ -50,8 +50,8 @@ const DesktopLinks = () => {
           <summary>Rituals</summary>
 
           <ul className="absolute top-15 w-40 bg-black">
-            {WEEKLY.map(({ title, url }, index) => (
-              <li key={index}>
+            {WEEKLY.map(({ title, url }) => (
+              <li key={url}>
                 <Link className="block px-4 py-2 hover:bg-white/25" href={url}>
                   {title}
                 </Link>
@@ -62,13 +62,13 @@ const DesktopLinks = () => {
       </li>
 
       <li>
-        <Link href="/temple/treasury">Treasury</Link>
+        <Link href="/treasury">Treasury</Link>
       </li>
       <li>
-        <Link href="/temple/attendance">Attendance</Link>
+        <Link href="/attendance">Attendance</Link>
       </li>
       <li>
-        <Link href="/temple/rituals/home/friday-evening">
+        <Link href="/rituals/home/friday-evening">
           Friday Evening Home Ritual
         </Link>
       </li>
