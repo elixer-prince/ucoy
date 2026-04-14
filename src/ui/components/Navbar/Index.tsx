@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavbarLogo />
       </div>
 
-      <div className="flex">
+      <div className="flex gap-4">
         <Show when="signed-in">
           <DesktopLinks />
         </Show>
