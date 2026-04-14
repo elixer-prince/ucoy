@@ -1,10 +1,11 @@
+import PageTitle from "@/app/(temple)/(manual)/_components/PageTitle";
 import TheShema from "@/app/(temple)/(manual)/_components/sections/TheShema";
 
 const Page = () => {
   return (
     <>
       <header>
-        <h1>Yom Teruah</h1>
+        <PageTitle>Yom Teruah</PageTitle>
       </header>
 
       <TheShema />
