@@ -1,6 +1,6 @@
 import PageBanner from "@/app/(temple)/(manual)/_components/PageBanner";
 import PageTitle from "@/app/(temple)/(manual)/_components/PageTitle";
-import TheShema from "@/app/(temple)/(manual)/_components/sections/TheShema";
+import TheShema from "@/app/(temple)/(manual)/_sections/TheShema";
 
 const Page = () => {
   return (
