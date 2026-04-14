@@ -118,7 +118,7 @@ const TheShema = () => {
           <HebrewText translation="days" transliterated>
             yomim
           </HebrewText>{" "}
-          of the
+          of the{" "}
           <HebrewText translation="heavens" transliterated>
             shamayim
           </HebrewText>{" "}
