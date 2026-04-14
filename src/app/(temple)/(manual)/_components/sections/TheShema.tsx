@@ -1,4 +1,4 @@
-import HebrewText from "../../rituals/home/HebrewText";
+import HebrewText from "@/app/(temple)/(manual)/HebrewText";
 
 const TheShema = () => {
   return (

@@ -1,4 +1,4 @@
-import TheShema from "@/app/temple/(manual)/_components/sections/TheShema";
+import TheShema from "@/app/(temple)/(manual)/_components/sections/TheShema";
 
 const Page = () => {
   return (
