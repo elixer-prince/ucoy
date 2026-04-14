@@ -67,11 +67,6 @@ const DesktopLinks = () => {
       <li>
         <Link href="/attendance">Attendance</Link>
       </li>
-      <li>
-        <Link href="/rituals/home/friday-evening">
-          Friday Evening Home Ritual
-        </Link>
-      </li>
     </ul>
   );
 };
